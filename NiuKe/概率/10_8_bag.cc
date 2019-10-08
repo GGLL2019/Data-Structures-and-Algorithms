@@ -19,6 +19,11 @@
  *
  * */
 
+#include <stdlib.h>
+#include <iostream>
+#include <vector>
+
+using std::vector;
 
 class Bag {
 public:
