@@ -123,12 +123,12 @@ int main(){
     int n = 6;
     vector<int> arr = {1, 3, 5, 4, 3, 6};
 
-    // 动态规划方法
+    // 暴力方法
     LongestIncreasingSubsequence_BF longestIncreasingSubsequence_bf;
     int res_bf = longestIncreasingSubsequence_bf.getLIS(arr);
     std::cout << "bf result:\t" << res_bf << std::endl << std::endl;
 
-    // 动态规划方法
+    // 记忆化搜索方法
     LongestIncreasingSubsequence_Memo longestIncreasingSubsequence_memo;
     int res_memo = longestIncreasingSubsequence_memo.getLIS(arr);
     std::cout << "memo result:\t" << res_memo << std::endl << std::endl;
