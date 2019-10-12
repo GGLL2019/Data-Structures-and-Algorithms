@@ -9,5 +9,6 @@
 - 12.8 01背包问题
 - 12.9 字符串最优编辑问题  
 
-* 笔试
-- 1. bishi_autox_codes1.cc s+keypad计算距离和
+
+* 笔试  
+- 1 bishi_autox_codes1.cc s+keypad计算距离和
