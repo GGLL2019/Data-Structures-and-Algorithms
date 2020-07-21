@@ -13,8 +13,8 @@
 　下面以修改README.md文件为例子  
 (6)git add README.md;  
 (7)git status查看状态，已经add的文件是绿色；如果需要撤回，使用git reset HEAD 全部撤回add  
-(8)git commit -m "add methods for using git";  
-(9)更新代码，避免冲突：git pull --rebase;  
+(8)git commit -m "add methods for using git";  注释：如果第一次提交后有问题需要修改后再提交，使用git commit --amend命令，可以跟踪到上一次的commit，这样保证只有一次commit
+(9)更新代码，避免冲突：git pull origin devel--rebase; 注释：一般是不devel，是master，这里是公司内部用法，平时可用git pull origin master--rebase
 (9)创建并切换分支(假设切换到guoxueliang分支（最好以个人名字命名）):git checkout -b guoxueliang;  
 (10)git status查看状态,应该已经在guoxueliang分支，而且与刚刚commit的状态一致  
 (11)上传：git push origin guoxueliang -f;  
